@@ -1,0 +1,85 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#top{
+    /*width: 100%;
+    height: 20px;*/
+    height: 20px;
+    
+    font-size: 15px;
+    font-weight: 200;
+    background-color: rgb(225, 230, 220);
+}
+#display,
+#updatepsw,
+#register,
+#login{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /*margin: 5% 30% 5% 30%;*/
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    padding: 2% 5% 5% 5%;
+    background-color: white;
+
+}
+
+#display h2, 
+#updatepsw h2,
+#register h2,
+#login h2{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 黑体;
+    font-weight: 900;
+    color: red;
+}
+
+.form-item{
+    margin-top: 20px;
+    height: 50px;
+    text-align: right;
+    font-family: 黑体;
+    font-weight: 900
+}
+.form-item input{
+    width: 288px;       /*定义输入框的大小*/
+    height: 38px;
+    padding-left: 70px; /*定义输入的内容距离输入框70px*/
+    border: 1px solid #fff; /*定义输入框的边框属性（1px宽的白色的实体线）*/
+    border-radius: 25px;    /*定义输入框的四角四分之一圆*/
+    font-size: 18px;        /*设定输入文字内容的大小*/
+    color: black;          /*定义输入字体的颜色为黑色*/
+    background-color: gainsboro;    /*输入框的背景颜色*/
+    outline: none;
+}
+.form-button input{
+    margin-top: 20px;
+    float: right;           /*框向右浮动*/
+    background-color: red;   /*按钮的背景颜色为*/
+    width: 360px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 18px;      /*定义按钮值字体的大小*/
+    color: white;
+}
+.reg-for{
+    width: 360px;
+    margin: 20px;
+    overflow: hidden;
+    float: right;
+}
+.reg-for .register{
+    float:left;
+}
+.reg-for .forget{
+    float: right;
+}
+
